@@ -7,7 +7,6 @@ package net.mcreator.cubisticselectronicsmod.init;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -18,7 +17,7 @@ public class CubisticselectronicsmodModTabs {
 		TAB_ELECTRONICS_CREATIVE_TAB = new CreativeModeTab("tabelectronics_creative_tab") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(Items.AMETHYST_SHARD);
+				return new ItemStack(CubisticselectronicsmodModItems.ELECTRIC_BOTTLE);
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -4,7 +4,7 @@
   "definition": {
     "name": "Electronics",
     "icon": {
-      "value": "Items.AMETHYST_SHARD"
+      "value": "CUSTOM:ElectronicsBottle"
     },
     "showSearch": false
   }
