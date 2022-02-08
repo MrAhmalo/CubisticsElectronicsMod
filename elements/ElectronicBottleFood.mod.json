@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "electronicbottle",
+    "customModelName": "Normal",
+    "name": "ElectronicBottle",
+    "rarity": "RARE",
+    "specialInfo": [
+      "Bottle with cool effects. Also used as fuel for ovens."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ElectronicsCreativeTab"
+    },
+    "stackSize": 3,
+    "nutritionalValue": 20,
+    "saturation": 0.5,
+    "eatingSpeed": 60,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "ElectronicBottleFoodEffects"
+    }
+  }
+}

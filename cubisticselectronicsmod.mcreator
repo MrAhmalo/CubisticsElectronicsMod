@@ -1,13 +1,63 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ElectronicBottleFood",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electronic_bottle_food"
+    },
+    {
+      "name": "ElectronicBottleFoodEffects",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electronic_bottle_food_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Prozedur"
+    },
+    {
+      "name": "ElectronicsCreativeTab",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electronics_creative_tab"
+    },
+    {
+      "name": "ElectronicFuel",
+      "type": "fuel",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electronic_fuel"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabelectronics_creative_tab": "Electronics",
+      "item.cubisticselectronicsmod.electronic_bottle_food": "ElectronicBottle"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Prozedur",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "cubisticselectronicsmod",
