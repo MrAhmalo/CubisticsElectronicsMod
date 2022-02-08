@@ -1,0 +1,13 @@
+{
+  "group": "low_electric_block",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cubisticselectronicsmod:low_electric_elements_block"
+    }
+  ],
+  "result": {
+    "item": "cubisticselectronicsmod:low_electric_elements_ingot",
+    "count": 9
+  }
+}

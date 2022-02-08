@@ -1,0 +1,12 @@
+{
+  "group": "low_electric_block",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "cubisticselectronicsmod:low_electric_elements_ore"
+  },
+  "result": {
+    "item": "cubisticselectronicsmod:low_electric_elements_ingot"
+  }
+}

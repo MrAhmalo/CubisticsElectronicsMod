@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cubisticselectronicsmod:blocks/lowelectricelements_ore",
+    "particle": "cubisticselectronicsmod:blocks/lowelectricelements_ore"
+  }
+}

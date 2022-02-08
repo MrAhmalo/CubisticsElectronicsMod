@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "low_electric_block",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LowElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:LowElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:LowElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:LowElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:LowElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:LowElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:LowElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:LowElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:LowElectricElementsIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LowElectricElementsBlock"
+    },
+    "name": "low_electric_elements_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

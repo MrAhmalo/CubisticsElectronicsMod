@@ -23,7 +23,7 @@
           }
         ]
       },
-      "path": "~/Prozedur"
+      "path": "~/Prozeduren"
     },
     {
       "name": "ElectronicsCreativeTab",
@@ -40,12 +40,86 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "electronic_fuel"
+    },
+    {
+      "name": "LowElectricElementsIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "low_electric_elements_ingot",
+      "path": "~/LowElectricElement"
+    },
+    {
+      "name": "LowElectricElementsOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "low_electric_elements_ore",
+      "path": "~/LowElectricElement"
+    },
+    {
+      "name": "LowElectricElementsBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "low_electric_elements_block",
+      "path": "~/LowElectricElement"
+    },
+    {
+      "name": "LowElectricElementsOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "low_electric_elements_ore_block_recipe",
+      "path": "~/LowElectricElement"
+    },
+    {
+      "name": "LowElectricElementsBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "low_electric_elements_block_ore_recipe",
+      "path": "~/LowElectricElement"
+    },
+    {
+      "name": "LowElectricElementsOreSmelting",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "low_electric_elements_ore_smelting",
+      "path": "~/LowElectricElement"
+    },
+    {
+      "name": "KlickOnLowElectricOreEffects",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "klick_on_low_electric_ore_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Prozeduren"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.cubisticselectronicsmod.low_electric_elements_block": "Low Electric Block",
+      "block.cubisticselectronicsmod.low_electric_elements_ore": "Low Electric Ore",
+      "item.cubisticselectronicsmod.low_electric_elements_ingot": "Low Electric Ingot",
       "itemGroup.tabelectronics_creative_tab": "Electronics",
       "item.cubisticselectronicsmod.electronic_bottle_food": "ElectronicBottle"
     }
@@ -54,7 +128,11 @@
     "name": "~",
     "children": [
       {
-        "name": "Prozedur",
+        "name": "Prozeduren",
+        "children": []
+      },
+      {
+        "name": "LowElectricElement",
         "children": []
       }
     ]

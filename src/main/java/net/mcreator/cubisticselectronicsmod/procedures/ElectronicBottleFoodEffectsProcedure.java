@@ -12,10 +12,10 @@ public class ElectronicBottleFoodEffectsProcedure {
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 10800, 2, (false), (false)));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3600, 3, (false), (false)));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3600, 2, (false), (false)));
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 300, 1, (false), (false)));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.HARM, 20, 1, (false), (false)));
+			_entity.addEffect(new MobEffectInstance(MobEffects.HARM, 1, 1, (false), (false)));
 	}
 }
