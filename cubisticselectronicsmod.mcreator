@@ -7,13 +7,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "electronics_creative_tab"
+    },
+    {
+      "name": "ElectronicsBottle",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electronic_bottle"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabelectronics_creative_tab": "Electronics"
+      "itemGroup.tabelectronics_creative_tab": "Electronics",
+      "item.cubisticselectronicsmod.electronic_bottle": "Electronics Bottle"
     }
   },
   "foldersRoot": {
