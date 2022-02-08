@@ -11,7 +11,7 @@
     {
       "name": "ElectronicBottleFoodEffects",
       "type": "procedure",
-      "sortid": 2,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electronic_bottle_food_effects",
@@ -28,7 +28,7 @@
     {
       "name": "ElectronicsCreativeTab",
       "type": "tab",
-      "sortid": 3,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electronics_creative_tab"
@@ -36,7 +36,7 @@
     {
       "name": "ElectronicFuel",
       "type": "fuel",
-      "sortid": 4,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electronic_fuel"
@@ -44,7 +44,7 @@
     {
       "name": "LowElectricElementsIngot",
       "type": "item",
-      "sortid": 5,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "low_electric_elements_ingot",
@@ -53,7 +53,7 @@
     {
       "name": "LowElectricElementsOre",
       "type": "block",
-      "sortid": 6,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "low_electric_elements_ore",
@@ -62,7 +62,7 @@
     {
       "name": "LowElectricElementsBlock",
       "type": "block",
-      "sortid": 7,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "low_electric_elements_block",
@@ -71,7 +71,7 @@
     {
       "name": "LowElectricElementsOreBlockRecipe",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "low_electric_elements_ore_block_recipe",
@@ -80,7 +80,7 @@
     {
       "name": "LowElectricElementsBlockOreRecipe",
       "type": "recipe",
-      "sortid": 9,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "low_electric_elements_block_ore_recipe",
@@ -89,7 +89,7 @@
     {
       "name": "LowElectricElementsOreSmelting",
       "type": "recipe",
-      "sortid": 10,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "low_electric_elements_ore_smelting",
@@ -98,7 +98,7 @@
     {
       "name": "KlickOnLowElectricOreEffects",
       "type": "procedure",
-      "sortid": 11,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "klick_on_low_electric_ore_effects",
@@ -115,7 +115,7 @@
     {
       "name": "HighElectricElementsIngot",
       "type": "item",
-      "sortid": 12,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "high_electric_elements_ingot",
@@ -124,7 +124,7 @@
     {
       "name": "HighElectricElementsOre",
       "type": "block",
-      "sortid": 13,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "high_electric_elements_ore",
@@ -133,7 +133,7 @@
     {
       "name": "HighElectricElementsBlock",
       "type": "block",
-      "sortid": 14,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "high_electric_elements_block",

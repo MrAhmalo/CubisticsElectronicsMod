@@ -25,12 +25,12 @@ public class CubisticselectronicsmodModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item ELECTRONIC_BOTTLE_FOOD = register(new ElectronicBottleFoodItem());
 	public static final Item LOW_ELECTRIC_ELEMENTS_INGOT = register(new LowElectricElementsIngotItem());
+	public static final Item HIGH_ELECTRIC_ELEMENTS_INGOT = register(new HighElectricElementsIngotItem());
 	public static final Item LOW_ELECTRIC_ELEMENTS_ORE = register(CubisticselectronicsmodModBlocks.LOW_ELECTRIC_ELEMENTS_ORE,
 			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
-	public static final Item LOW_ELECTRIC_ELEMENTS_BLOCK = register(CubisticselectronicsmodModBlocks.LOW_ELECTRIC_ELEMENTS_BLOCK,
-			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
-	public static final Item HIGH_ELECTRIC_ELEMENTS_INGOT = register(new HighElectricElementsIngotItem());
 	public static final Item HIGH_ELECTRIC_ELEMENTS_ORE = register(CubisticselectronicsmodModBlocks.HIGH_ELECTRIC_ELEMENTS_ORE,
+			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
+	public static final Item LOW_ELECTRIC_ELEMENTS_BLOCK = register(CubisticselectronicsmodModBlocks.LOW_ELECTRIC_ELEMENTS_BLOCK,
 			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
 	public static final Item HIGH_ELECTRIC_ELEMENTS_BLOCK = register(CubisticselectronicsmodModBlocks.HIGH_ELECTRIC_ELEMENTS_BLOCK,
 			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);

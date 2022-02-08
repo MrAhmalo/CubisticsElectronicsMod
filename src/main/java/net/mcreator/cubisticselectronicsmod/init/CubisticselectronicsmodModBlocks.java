@@ -22,8 +22,8 @@ import java.util.ArrayList;
 public class CubisticselectronicsmodModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block LOW_ELECTRIC_ELEMENTS_ORE = register(new LowElectricElementsOreBlock());
-	public static final Block LOW_ELECTRIC_ELEMENTS_BLOCK = register(new LowElectricElementsBlockBlock());
 	public static final Block HIGH_ELECTRIC_ELEMENTS_ORE = register(new HighElectricElementsOreBlock());
+	public static final Block LOW_ELECTRIC_ELEMENTS_BLOCK = register(new LowElectricElementsBlockBlock());
 	public static final Block HIGH_ELECTRIC_ELEMENTS_BLOCK = register(new HighElectricElementsBlockBlock());
 
 	private static Block register(Block block) {
