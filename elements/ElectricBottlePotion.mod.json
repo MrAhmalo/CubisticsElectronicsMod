@@ -1,0 +1,48 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Electric",
+    "splashName": "Splash Potion of Electric",
+    "lingeringName": "Lingering Potion of Electric",
+    "arrowName": "Arrow of Electric",
+    "effects": [
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 10800,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "STRENGTH"
+        },
+        "duration": 3600,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "GLOWING"
+        },
+        "duration": 300,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "INSTANT_DAMAGE"
+        },
+        "duration": 20,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

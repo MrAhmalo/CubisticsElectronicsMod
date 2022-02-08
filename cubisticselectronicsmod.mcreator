@@ -23,14 +23,26 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "electric_bottle_fuel"
+    },
+    {
+      "name": "ElectricBottlePotion",
+      "type": "potion",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_bottle_potion"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.minecraft.potion.effect.electric_bottle_potion": "Potion of Electric",
+      "item.minecraft.tipped_arrow.effect.electric_bottle_potion": "Arrow of Electric",
       "itemGroup.tabelectronics_creative_tab": "Electronics",
-      "item.cubisticselectronicsmod.electronic_bottle": "Electronics Bottle"
+      "item.minecraft.splash_potion.effect.electric_bottle_potion": "Splash Potion of Electric",
+      "item.cubisticselectronicsmod.electronic_bottle": "Electronics Bottle",
+      "item.minecraft.lingering_potion.effect.electric_bottle_potion": "Lingering Potion of Electric"
     }
   },
   "foldersRoot": {
