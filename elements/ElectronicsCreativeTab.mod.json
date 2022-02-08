@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Electronics",
+    "icon": {
+      "value": "Items.AMETHYST_SHARD"
+    },
+    "showSearch": false
+  }
+}
