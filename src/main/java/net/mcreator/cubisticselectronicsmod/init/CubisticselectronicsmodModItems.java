@@ -14,6 +14,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.cubisticselectronicsmod.item.LowElectricElementsIngotItem;
+import net.mcreator.cubisticselectronicsmod.item.HighElectricElementsIngotItem;
 import net.mcreator.cubisticselectronicsmod.item.ElectronicBottleFoodItem;
 
 import java.util.List;
@@ -27,6 +28,11 @@ public class CubisticselectronicsmodModItems {
 	public static final Item LOW_ELECTRIC_ELEMENTS_ORE = register(CubisticselectronicsmodModBlocks.LOW_ELECTRIC_ELEMENTS_ORE,
 			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
 	public static final Item LOW_ELECTRIC_ELEMENTS_BLOCK = register(CubisticselectronicsmodModBlocks.LOW_ELECTRIC_ELEMENTS_BLOCK,
+			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
+	public static final Item HIGH_ELECTRIC_ELEMENTS_INGOT = register(new HighElectricElementsIngotItem());
+	public static final Item HIGH_ELECTRIC_ELEMENTS_ORE = register(CubisticselectronicsmodModBlocks.HIGH_ELECTRIC_ELEMENTS_ORE,
+			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
+	public static final Item HIGH_ELECTRIC_ELEMENTS_BLOCK = register(CubisticselectronicsmodModBlocks.HIGH_ELECTRIC_ELEMENTS_BLOCK,
 			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
 
 	private static Item register(Item item) {

@@ -111,6 +111,69 @@
         ]
       },
       "path": "~/Prozeduren"
+    },
+    {
+      "name": "HighElectricElementsIngot",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_electric_elements_ingot",
+      "path": "~/HighElectricElements"
+    },
+    {
+      "name": "HighElectricElementsOre",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_electric_elements_ore",
+      "path": "~/HighElectricElements"
+    },
+    {
+      "name": "HighElectricElementsBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_electric_elements_block",
+      "path": "~/HighElectricElements"
+    },
+    {
+      "name": "HighElectricElementsOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_electric_elements_ore_block_recipe",
+      "path": "~/HighElectricElements"
+    },
+    {
+      "name": "HighElectricElementsBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_electric_elements_block_ore_recipe",
+      "path": "~/HighElectricElements"
+    },
+    {
+      "name": "HighElectricElementsOreSmelting",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_electric_elements_ore_smelting",
+      "path": "~/HighElectricElements"
+    },
+    {
+      "name": "ElectricBottleRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_bottle_recipe",
+      "path": "~/Rezepte"
     }
   ],
   "variable_elements": [],
@@ -118,6 +181,9 @@
   "language_map": {
     "en_us": {
       "block.cubisticselectronicsmod.low_electric_elements_block": "Low Electric Block",
+      "block.cubisticselectronicsmod.high_electric_elements_ore": "High Electric Ore",
+      "block.cubisticselectronicsmod.high_electric_elements_block": "High Electric Block",
+      "item.cubisticselectronicsmod.high_electric_elements_ingot": "High Electric Ingot",
       "block.cubisticselectronicsmod.low_electric_elements_ore": "Low Electric Ore",
       "item.cubisticselectronicsmod.low_electric_elements_ingot": "Low Electric Ingot",
       "itemGroup.tabelectronics_creative_tab": "Electronics",
@@ -133,6 +199,14 @@
       },
       {
         "name": "LowElectricElement",
+        "children": []
+      },
+      {
+        "name": "HighElectricElements",
+        "children": []
+      },
+      {
+        "name": "Rezepte",
         "children": []
       }
     ]

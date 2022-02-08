@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "cubisticselectronicsmod:block/high_electric_elements_ore",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "cubisticselectronicsmod:block/high_electric_elements_ore"
+    },
+    "axis=z": {
+      "model": "cubisticselectronicsmod:block/high_electric_elements_ore",
+      "x": 90
+    }
+  }
+}

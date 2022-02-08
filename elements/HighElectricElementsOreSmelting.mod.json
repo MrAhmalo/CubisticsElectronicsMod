@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 4.0,
+    "cookingTime": 120,
+    "recipeRetstackSize": 1,
+    "group": "high_electric_block",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:HighElectricElementsOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HighElectricElementsIngot"
+    },
+    "name": "high_electric_elements_ore_smelting",
+    "namespace": "mod"
+  }
+}

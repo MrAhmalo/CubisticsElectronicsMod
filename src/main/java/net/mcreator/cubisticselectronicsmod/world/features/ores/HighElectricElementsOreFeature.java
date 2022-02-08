@@ -23,16 +23,16 @@ import net.mcreator.cubisticselectronicsmod.init.CubisticselectronicsmodModBlock
 import java.util.Set;
 import java.util.Random;
 
-public class LowElectricElementsOreFeature extends OreFeature {
-	public static final LowElectricElementsOreFeature FEATURE = (LowElectricElementsOreFeature) new LowElectricElementsOreFeature()
-			.setRegistryName("cubisticselectronicsmod:low_electric_elements_ore");
+public class HighElectricElementsOreFeature extends OreFeature {
+	public static final HighElectricElementsOreFeature FEATURE = (HighElectricElementsOreFeature) new HighElectricElementsOreFeature()
+			.setRegistryName("cubisticselectronicsmod:high_electric_elements_ore");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(LowElectricElementsOreFeatureRuleTest.INSTANCE,
-					CubisticselectronicsmodModBlocks.LOW_ELECTRIC_ELEMENTS_ORE.defaultBlockState(), 7))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(16)))).squared().count(11);
+			.configured(new OreConfiguration(HighElectricElementsOreFeatureRuleTest.INSTANCE,
+					CubisticselectronicsmodModBlocks.HIGH_ELECTRIC_ELEMENTS_ORE.defaultBlockState(), 3))
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(1), VerticalAnchor.absolute(16)))).squared().count(1);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 
-	public LowElectricElementsOreFeature() {
+	public HighElectricElementsOreFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -47,12 +47,12 @@ public class LowElectricElementsOreFeature extends OreFeature {
 		return super.place(context);
 	}
 
-	private static class LowElectricElementsOreFeatureRuleTest extends RuleTest {
-		static final LowElectricElementsOreFeatureRuleTest INSTANCE = new LowElectricElementsOreFeatureRuleTest();
-		static final com.mojang.serialization.Codec<LowElectricElementsOreFeatureRuleTest> codec = com.mojang.serialization.Codec
+	private static class HighElectricElementsOreFeatureRuleTest extends RuleTest {
+		static final HighElectricElementsOreFeatureRuleTest INSTANCE = new HighElectricElementsOreFeatureRuleTest();
+		static final com.mojang.serialization.Codec<HighElectricElementsOreFeatureRuleTest> codec = com.mojang.serialization.Codec
 				.unit(() -> INSTANCE);
-		static final RuleTestType<LowElectricElementsOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
-				new ResourceLocation("cubisticselectronicsmod:low_electric_elements_ore_match"), () -> codec);
+		static final RuleTestType<HighElectricElementsOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
+				new ResourceLocation("cubisticselectronicsmod:high_electric_elements_ore_match"), () -> codec);
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "high_electric_block",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HighElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:HighElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:HighElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:HighElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:HighElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:HighElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:HighElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:HighElectricElementsIngot"
+      },
+      {
+        "value": "CUSTOM:HighElectricElementsIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HighElectricElementsBlock"
+    },
+    "name": "high_electric_elements_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

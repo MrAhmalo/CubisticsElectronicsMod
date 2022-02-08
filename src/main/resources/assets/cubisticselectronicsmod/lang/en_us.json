@@ -1,5 +1,8 @@
 {
   "block.cubisticselectronicsmod.low_electric_elements_block": "Low Electric Block",
+  "block.cubisticselectronicsmod.high_electric_elements_ore": "High Electric Ore",
+  "block.cubisticselectronicsmod.high_electric_elements_block": "High Electric Block",
+  "item.cubisticselectronicsmod.high_electric_elements_ingot": "High Electric Ingot",
   "block.cubisticselectronicsmod.low_electric_elements_ore": "Low Electric Ore",
   "item.cubisticselectronicsmod.low_electric_elements_ingot": "Low Electric Ingot",
   "itemGroup.tabelectronics_creative_tab": "Electronics",

@@ -1,0 +1,12 @@
+{
+  "group": "high_electric_block",
+  "type": "minecraft:smelting",
+  "experience": 4,
+  "cookingtime": 120,
+  "ingredient": {
+    "item": "cubisticselectronicsmod:high_electric_elements_ore"
+  },
+  "result": {
+    "item": "cubisticselectronicsmod:high_electric_elements_ingot"
+  }
+}

@@ -17,6 +17,7 @@ import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.cubisticselectronicsmod.world.features.ores.LowElectricElementsOreFeature;
+import net.mcreator.cubisticselectronicsmod.world.features.ores.HighElectricElementsOreFeature;
 
 import java.util.Set;
 import java.util.Map;
@@ -28,6 +29,8 @@ public class CubisticselectronicsmodModFeatures {
 	static {
 		REGISTRY.put(LowElectricElementsOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				LowElectricElementsOreFeature.GENERATE_BIOMES, LowElectricElementsOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(HighElectricElementsOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				HighElectricElementsOreFeature.GENERATE_BIOMES, HighElectricElementsOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent
