@@ -31,6 +31,31 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "electric_bottle_potion"
+    },
+    {
+      "name": "ElectricBottleEffects",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_bottle_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Prozeduren"
+    },
+    {
+      "name": "EletricBottleFood",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eletric_bottle_food"
     }
   ],
   "variable_elements": [],
@@ -38,6 +63,7 @@
   "language_map": {
     "en_us": {
       "item.minecraft.potion.effect.electric_bottle_potion": "Potion of Electric",
+      "item.cubisticselectronicsmod.eletric_bottle_food": "EletricBottle",
       "item.minecraft.tipped_arrow.effect.electric_bottle_potion": "Arrow of Electric",
       "itemGroup.tabelectronics_creative_tab": "Electronics",
       "item.minecraft.splash_potion.effect.electric_bottle_potion": "Splash Potion of Electric",
@@ -47,7 +73,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Prozeduren",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "cubisticselectronicsmod",

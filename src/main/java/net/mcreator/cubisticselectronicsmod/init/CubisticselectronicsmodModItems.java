@@ -10,6 +10,7 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.cubisticselectronicsmod.item.EletricBottleFoodItem;
 import net.mcreator.cubisticselectronicsmod.item.ElectronicsBottleItem;
 
 import java.util.List;
@@ -19,6 +20,7 @@ import java.util.ArrayList;
 public class CubisticselectronicsmodModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item ELECTRONIC_BOTTLE = register(new ElectronicsBottleItem());
+	public static final Item ELETRIC_BOTTLE_FOOD = register(new EletricBottleFoodItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
