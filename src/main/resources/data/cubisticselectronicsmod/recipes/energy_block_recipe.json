@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "cubisticselectronicsmod:low_electric_elements_ingot"
+    },
+    "3": {
+      "item": "cubisticselectronicsmod:high_electric_elements_ingot"
+    },
+    "4": {
+      "item": "cubisticselectronicsmod:electronic_bottle_food"
+    },
+    "5": {
+      "item": "cubisticselectronicsmod:high_electric_elements_ingot"
+    },
+    "7": {
+      "item": "cubisticselectronicsmod:low_electric_elements_ingot"
+    }
+  },
+  "result": {
+    "item": "cubisticselectronicsmod:energy_block",
+    "count": 1
+  }
+}

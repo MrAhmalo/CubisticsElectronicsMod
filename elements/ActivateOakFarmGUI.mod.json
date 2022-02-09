@@ -1,0 +1,80 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Activate Oak Farm:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Activate Oak Farm:",
+          "x": 170,
+          "y": 45
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:LowElectricElementsIngot"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #0",
+          "x": 178,
+          "y": 77
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Activate Farm",
+          "width": 93,
+          "height": 20,
+          "name": "Activate Farm",
+          "x": 201,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "low_element.png",
+          "use1Xscale": false,
+          "name": "low_element.png",
+          "x": 132,
+          "y": 77
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "upgradetableiconinto.png",
+          "use1Xscale": false,
+          "name": "upgradetableiconinto.png",
+          "x": 152,
+          "y": 78
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

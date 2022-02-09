@@ -1,0 +1,82 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Choose Tree Farm:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Choose Tree Farm:",
+          "x": 169,
+          "y": 45
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Oak Farm",
+          "width": 66,
+          "height": 20,
+          "name": "Oak Farm",
+          "x": 180,
+          "y": 70
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Spruce Farm",
+          "width": 82,
+          "height": 20,
+          "name": "Spruce Farm",
+          "x": 171,
+          "y": 95
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Dark Oak Farm",
+          "width": 92,
+          "height": 20,
+          "name": "Dark Oak Farm",
+          "x": 166,
+          "y": 121
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "onClick": {
+            "name": "OpenEnergyBlockFarmGUI"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "<",
+          "x": 130,
+          "y": 178
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

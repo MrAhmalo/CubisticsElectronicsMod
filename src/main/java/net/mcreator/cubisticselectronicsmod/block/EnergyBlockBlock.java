@@ -15,7 +15,6 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
@@ -32,21 +31,6 @@ public class EnergyBlockBlock extends Block {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
-	}
-
-	@Override
-	public boolean isSignalSource(BlockState state) {
-		return true;
-	}
-
-	@Override
-	public int getSignal(BlockState blockstate, BlockGetter blockAccess, BlockPos pos, Direction side) {
-		return 15;
-	}
-
-	@Override
-	public boolean canConnectRedstone(BlockState state, BlockGetter world, BlockPos pos, Direction side) {
-		return true;
 	}
 
 	@Override

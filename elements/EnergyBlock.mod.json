@@ -49,7 +49,7 @@
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": true,
+    "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
       "value": "ROCK"
@@ -57,7 +57,7 @@
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "canProvidePower": true,
+    "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },

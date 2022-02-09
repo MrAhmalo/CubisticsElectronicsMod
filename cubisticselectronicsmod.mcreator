@@ -182,6 +182,108 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "energy_block"
+    },
+    {
+      "name": "EnergyBlockRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_block_recipe",
+      "path": "~/Rezepte"
+    },
+    {
+      "name": "ChooseElementEnergyBlock",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choose_element_energy_block",
+      "path": "~/GUIs"
+    },
+    {
+      "name": "ChooseTreeFarmEnergyBlockGUI",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choose_tree_farm_energy_block_gui",
+      "path": "~/GUIs"
+    },
+    {
+      "name": "OpenEnergyBlockFarmGUI",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_energy_block_farm_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Prozeduren"
+    },
+    {
+      "name": "OpenTreeFarmGUI",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_tree_farm_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Prozeduren"
+    },
+    {
+      "name": "ActivateOakFarmGUI",
+      "type": "gui",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activate_oak_farm_gui",
+      "path": "~/GUIs"
     }
   ],
   "variable_elements": [],
@@ -216,6 +318,10 @@
       },
       {
         "name": "Rezepte",
+        "children": []
+      },
+      {
+        "name": "GUIs",
         "children": []
       }
     ]
