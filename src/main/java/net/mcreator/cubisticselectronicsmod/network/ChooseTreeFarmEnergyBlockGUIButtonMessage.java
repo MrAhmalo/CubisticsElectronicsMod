@@ -12,6 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.cubisticselectronicsmod.world.inventory.ChooseTreeFarmEnergyBlockGUIMenu;
+import net.mcreator.cubisticselectronicsmod.procedures.OpenOakFarmGUIProcedure;
 import net.mcreator.cubisticselectronicsmod.procedures.OpenEnergyBlockFarmGUIProcedure;
 import net.mcreator.cubisticselectronicsmod.CubisticselectronicsmodMod;
 
@@ -62,6 +63,10 @@ public class ChooseTreeFarmEnergyBlockGUIButtonMessage {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+
+			OpenOakFarmGUIProcedure.execute(world, x, y, z, entity);
+		}
 		if (buttonID == 3) {
 
 			OpenEnergyBlockFarmGUIProcedure.execute(world, x, y, z, entity);

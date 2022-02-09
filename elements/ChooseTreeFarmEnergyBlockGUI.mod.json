@@ -27,6 +27,9 @@
         "type": "button",
         "data": {
           "text": "Oak Farm",
+          "onClick": {
+            "name": "OpenOakFarmGUI"
+          },
           "width": 66,
           "height": 20,
           "name": "Oak Farm",

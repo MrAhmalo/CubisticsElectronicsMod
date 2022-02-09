@@ -83,6 +83,10 @@ public class ChooseTreeFarmEnergyBlockGUIScreen extends AbstractContainerScreen<
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 54, this.topPos + 33, 66, 20, new TextComponent("Oak Farm"), e -> {
+			if (true) {
+				CubisticselectronicsmodMod.PACKET_HANDLER.sendToServer(new ChooseTreeFarmEnergyBlockGUIButtonMessage(0, x, y, z));
+				ChooseTreeFarmEnergyBlockGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 45, this.topPos + 58, 82, 20, new TextComponent("Spruce Farm"), e -> {
 		}));
