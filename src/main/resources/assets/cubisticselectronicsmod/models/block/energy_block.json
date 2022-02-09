@@ -3,9 +3,9 @@
   "textures": {
     "down": "cubisticselectronicsmod:blocks/energy_block_side_animation",
     "up": "cubisticselectronicsmod:blocks/energy_block_side_animation",
-    "north": "cubisticselectronicsmod:blocks/energy_block_side_default_texture",
+    "north": "cubisticselectronicsmod:blocks/energy_block_side_animation",
     "east": "cubisticselectronicsmod:blocks/energy_block_side_animation",
-    "south": "cubisticselectronicsmod:blocks/energy_block_side_default_texture",
+    "south": "cubisticselectronicsmod:blocks/energy_block_side_animation",
     "west": "cubisticselectronicsmod:blocks/energy_block_side_animation",
     "particle": "cubisticselectronicsmod:blocks/energy_block_side_animation"
   }
