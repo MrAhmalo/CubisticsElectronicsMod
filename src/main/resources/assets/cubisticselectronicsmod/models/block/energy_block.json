@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "cubisticselectronicsmod:blocks/energy_block_side_animated",
-    "up": "cubisticselectronicsmod:blocks/energy_block_side_animated",
-    "north": "cubisticselectronicsmod:blocks/energy_block_side_animated",
-    "east": "cubisticselectronicsmod:blocks/energy_block_side_animated",
-    "south": "cubisticselectronicsmod:blocks/energy_block_side_animated",
-    "west": "cubisticselectronicsmod:blocks/energy_block_side_animated",
-    "particle": "cubisticselectronicsmod:blocks/energy_block_side_animated"
+    "down": "cubisticselectronicsmod:blocks/energy_block_side_animation",
+    "up": "cubisticselectronicsmod:blocks/energy_block_side_animation",
+    "north": "cubisticselectronicsmod:blocks/energy_block_side_default_texture",
+    "east": "cubisticselectronicsmod:blocks/energy_block_side_animation",
+    "south": "cubisticselectronicsmod:blocks/energy_block_side_default_texture",
+    "west": "cubisticselectronicsmod:blocks/energy_block_side_animation",
+    "particle": "cubisticselectronicsmod:blocks/energy_block_side_animation"
   }
 }

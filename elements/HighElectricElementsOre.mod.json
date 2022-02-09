@@ -103,8 +103,8 @@
     "particleToSpawn": {
       "value": "ELECTRIC_SPARK"
     },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.30000000000000004,
+    "particleSpawningShape": "Plane",
+    "particleSpawningRadious": 0.5,
     "particleAmount": 3,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
