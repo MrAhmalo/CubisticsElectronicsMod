@@ -41,6 +41,9 @@
         "type": "button",
         "data": {
           "text": "Activate Farm",
+          "onClick": {
+            "name": "ActivateOakFarmProcedure"
+          },
           "width": 93,
           "height": 20,
           "name": "Activate Farm",

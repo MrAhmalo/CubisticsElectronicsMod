@@ -284,6 +284,35 @@
       "locked_code": false,
       "registry_name": "activate_oak_farm_gui",
       "path": "~/GUIs"
+    },
+    {
+      "name": "ActivateOakFarmProcedure",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activate_oak_farm_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Prozeduren"
     }
   ],
   "variable_elements": [],

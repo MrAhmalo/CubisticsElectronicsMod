@@ -12,6 +12,8 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.cubisticselectronicsmod.world.inventory.ActivateOakFarmGUIMenu;
+import net.mcreator.cubisticselectronicsmod.network.ActivateOakFarmGUIButtonMessage;
+import net.mcreator.cubisticselectronicsmod.CubisticselectronicsmodMod;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -88,6 +90,10 @@ public class ActivateOakFarmGUIScreen extends AbstractContainerScreen<ActivateOa
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 75, this.topPos + 39, 93, 20, new TextComponent("Activate Farm"), e -> {
+			if (true) {
+				CubisticselectronicsmodMod.PACKET_HANDLER.sendToServer(new ActivateOakFarmGUIButtonMessage(0, x, y, z));
+				ActivateOakFarmGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}));
 	}
 }
