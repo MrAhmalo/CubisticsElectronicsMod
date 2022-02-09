@@ -34,6 +34,8 @@ public class CubisticselectronicsmodModItems {
 			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
 	public static final Item HIGH_ELECTRIC_ELEMENTS_BLOCK = register(CubisticselectronicsmodModBlocks.HIGH_ELECTRIC_ELEMENTS_BLOCK,
 			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
+	public static final Item ENERGY_BLOCK = register(CubisticselectronicsmodModBlocks.ENERGY_BLOCK,
+			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

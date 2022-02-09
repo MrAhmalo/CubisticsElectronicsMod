@@ -14,6 +14,7 @@ import net.mcreator.cubisticselectronicsmod.block.LowElectricElementsOreBlock;
 import net.mcreator.cubisticselectronicsmod.block.LowElectricElementsBlockBlock;
 import net.mcreator.cubisticselectronicsmod.block.HighElectricElementsOreBlock;
 import net.mcreator.cubisticselectronicsmod.block.HighElectricElementsBlockBlock;
+import net.mcreator.cubisticselectronicsmod.block.EnergyBlockBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -25,6 +26,7 @@ public class CubisticselectronicsmodModBlocks {
 	public static final Block HIGH_ELECTRIC_ELEMENTS_ORE = register(new HighElectricElementsOreBlock());
 	public static final Block LOW_ELECTRIC_ELEMENTS_BLOCK = register(new LowElectricElementsBlockBlock());
 	public static final Block HIGH_ELECTRIC_ELEMENTS_BLOCK = register(new HighElectricElementsBlockBlock());
+	public static final Block ENERGY_BLOCK = register(new EnergyBlockBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
