@@ -99,7 +99,7 @@
     "luminance": 2,
     "unbreakable": false,
     "breakHarvestLevel": 2,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
       "value": "ELECTRIC_SPARK"
     },

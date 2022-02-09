@@ -15,6 +15,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
@@ -24,13 +25,28 @@ import java.util.Collections;
 
 public class EnergyBlockBlock extends Block {
 	public EnergyBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f));
 		setRegistryName("energy_block");
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public boolean isSignalSource(BlockState state) {
+		return true;
+	}
+
+	@Override
+	public int getSignal(BlockState blockstate, BlockGetter blockAccess, BlockPos pos, Direction side) {
+		return 15;
+	}
+
+	@Override
+	public boolean canConnectRedstone(BlockState state, BlockGetter world, BlockPos pos, Direction side) {
+		return true;
 	}
 
 	@Override
@@ -49,11 +65,14 @@ public class EnergyBlockBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		for (int l = 0; l < 3; ++l) {
-			double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.5D * 20;
-			double y0 = y + 1.2 + (random.nextFloat() - 0.5) * 0.5D;
-			double z0 = z + 0.5 + (random.nextFloat() - 0.5) * 0.5D * 20;
-			world.addParticle(ParticleTypes.LIGHT, x0, y0, z0, 0, 0, 0);
+		for (int l = 0; l < 4; ++l) {
+			double x0 = x + random.nextFloat();
+			double y0 = y + random.nextFloat();
+			double z0 = z + random.nextFloat();
+			double dx = (random.nextFloat() - 0.5D) * 0.5D;
+			double dy = (random.nextFloat() - 0.5D) * 0.5D;
+			double dz = (random.nextFloat() - 0.5D) * 0.5D;
+			world.addParticle(ParticleTypes.ELECTRIC_SPARK, x0, y0, z0, dx, dy, dz);
 		}
 	}
 }
