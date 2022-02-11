@@ -307,6 +307,10 @@
             "type": "number"
           },
           {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -346,6 +350,49 @@
         ]
       },
       "path": "~/Prozeduren"
+    },
+    {
+      "name": "HealEntity",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Prozeduren"
+    },
+    {
+      "name": "OakTreeFarm",
+      "type": "livingentity",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_tree_farm",
+      "path": "~/Prozeduren"
+    },
+    {
+      "name": "RightKlickOakTreeFarmEntity",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_klick_oak_tree_farm_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Prozeduren"
     }
   ],
   "variable_elements": [],
@@ -356,7 +403,9 @@
       "block.cubisticselectronicsmod.high_electric_elements_ore": "High Electric Ore",
       "block.cubisticselectronicsmod.high_electric_elements_block": "High Electric Block",
       "item.cubisticselectronicsmod.high_electric_elements_ingot": "High Electric Ingot",
+      "item.cubisticselectronicsmod.oak_tree_farm_spawn_egg": "Oak Tree Farm Spawn Egg",
       "block.cubisticselectronicsmod.low_electric_elements_ore": "Low Electric Ore",
+      "entity.cubisticselectronicsmod.oak_tree_farm": "Oak Tree Farm",
       "block.cubisticselectronicsmod.energy_block": "Energy Block",
       "item.cubisticselectronicsmod.low_electric_elements_ingot": "Low Electric Ingot",
       "itemGroup.tabelectronics_creative_tab": "Electronics",

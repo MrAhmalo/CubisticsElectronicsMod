@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
@@ -36,6 +37,8 @@ public class CubisticselectronicsmodModItems {
 			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
 	public static final Item ENERGY_BLOCK = register(CubisticselectronicsmodModBlocks.ENERGY_BLOCK,
 			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
+	public static final Item OAK_TREE_FARM = register(new SpawnEggItem(CubisticselectronicsmodModEntities.OAK_TREE_FARM, -1, -1,
+			new Item.Properties().tab(CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB)).setRegistryName("oak_tree_farm_spawn_egg"));
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
