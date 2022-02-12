@@ -38,6 +38,7 @@ public class CubisticselectronicsmodModItems {
 	public static final Item ENERGY_BLOCK = register(CubisticselectronicsmodModBlocks.ENERGY_BLOCK,
 			CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
 	public static final Item SET_OAK_FARM_ITEM = register(new SetOakFarmItemItem());
+	public static final Item PLATE = register(CubisticselectronicsmodModBlocks.PLATE, CubisticselectronicsmodModTabs.TAB_ELECTRONICS_CREATIVE_TAB);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

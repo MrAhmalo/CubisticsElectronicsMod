@@ -297,22 +297,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -392,6 +376,47 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_oak_farm_item"
+    },
+    {
+      "name": "RightKlickOnSetOakFarmItem",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_klick_on_set_oak_farm_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Prozeduren"
+    },
+    {
+      "name": "Plate",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plate"
     }
   ],
   "variable_elements": [],
@@ -403,6 +428,7 @@
       "block.cubisticselectronicsmod.high_electric_elements_block": "High Electric Block",
       "item.cubisticselectronicsmod.high_electric_elements_ingot": "High Electric Ingot",
       "block.cubisticselectronicsmod.low_electric_elements_ore": "Low Electric Ore",
+      "block.cubisticselectronicsmod.plate": "Plate",
       "block.cubisticselectronicsmod.energy_block": "Energy Block",
       "item.cubisticselectronicsmod.low_electric_elements_ingot": "Low Electric Ingot",
       "item.cubisticselectronicsmod.set_oak_farm_item": "Set Oak Farm",

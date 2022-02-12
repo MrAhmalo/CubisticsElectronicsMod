@@ -70,6 +70,19 @@
           "x": 152,
           "y": 78
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "4",
+          "x": 142,
+          "y": 74
+        }
       }
     ],
     "gridSettings": {

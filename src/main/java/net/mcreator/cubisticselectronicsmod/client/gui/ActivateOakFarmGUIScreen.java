@@ -77,6 +77,7 @@ public class ActivateOakFarmGUIScreen extends AbstractContainerScreen<ActivateOa
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Activate Oak Farm:", 44, 8, -12829636);
+		this.font.draw(poseStack, "4", 16, 37, -1);
 	}
 
 	@Override
